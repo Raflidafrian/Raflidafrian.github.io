@@ -1,0 +1,35 @@
+body {
+  padding-top: 70px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;
+  color: white;
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link.active {
+    color: #0d6efd !important;
+    font-weight: bold;
+}
+
+/* di style.css */
+.form-kontak {
+  max-width: 600px;
+}
