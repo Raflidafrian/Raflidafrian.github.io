@@ -33,3 +33,7 @@ html {
 .form-kontak {
   max-width: 600px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
